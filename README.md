@@ -68,9 +68,9 @@ docker run -it -v $(pwd)/logs:/logs  --env-file=$(pwd)/.env data-pipeline:lts
 ```
 
 ## Consumer Side Architecture
-![Alt Text](/home/rajan/Music/ml-data-pipeline-main/flowchart/consumer.drawio.svg)
+![Alt Text](https://github.com/rajandevkota98/ML-DATA-PIPELINE_MAIN/blob/main/flowchart/consumer.drawio.svg)
 
 
 
-##Producer Side Architecture
-![Alt Text](/home/rajan/Music/ml-data-pipeline-main/flowchart/producer.drawio.svg)
+## Producer Side Architecture
+![Alt Text](/home/rajan/Music/ml-data-pipeline-main/flowchart/.drawio.svg)
