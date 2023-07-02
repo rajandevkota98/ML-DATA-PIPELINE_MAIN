@@ -2,13 +2,11 @@ from setuptools import setup,find_packages
 from typing import List
 
 #Declaring variables for setup functions
-PROJECT_NAME="kafka"
+PROJECT_NAME="Kafka-Dealing"
 VERSION="0.0.3"
-AUTHOR="Avnish Yadav"
+AUTHOR="Rajan Devkota"
 DESRCIPTION="This is a sample project for kafka producer and consumer"
-
 REQUIREMENT_FILE_NAME="requirements.txt"
-
 HYPHEN_E_DOT = "-e ."
 
 
