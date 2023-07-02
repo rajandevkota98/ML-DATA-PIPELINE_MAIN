@@ -22,12 +22,6 @@ Step4:
 pip install -r requirements.txt
 ```
 
-Below repo help you to obtain requried credentials
-```
-https://github.com/Big-Data-01/confluent-tutorial.git
-```
-
-
 Cluster Environment Variable
 ```
 API_KEY
@@ -72,3 +66,11 @@ Run docker image
 ```
 docker run -it -v $(pwd)/logs:/logs  --env-file=$(pwd)/.env data-pipeline:lts
 ```
+
+## Consumer Side Architecture
+![Alt Text](/home/rajan/Music/ml-data-pipeline-main/flowchart/consumer.drawio.svg)
+
+
+
+##Producer Side Architecture
+![Alt Text](/home/rajan/Music/ml-data-pipeline-main/flowchart/producer.drawio.svg)
